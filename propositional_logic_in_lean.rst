@@ -322,7 +322,7 @@ Since every example begins by declaring the necessary propositional variables, w
 Conjunction
 ~~~~~~~~~~~
 
-We have already seen that and introduction is implemented with ``and.intro``, and the elimination rules are ``and.left`` and ``and.right``.
+We have already seen that and-introduction is implemented with ``and.intro``, and the elimination rules are ``and.left`` and ``and.right``.
 
 .. code-block:: lean
 
@@ -346,7 +346,7 @@ We have already seen that and introduction is implemented with ``and.intro``, an
 Disjunction
 ~~~~~~~~~~~
 
-The or introduction rules are given by ``or.inl`` and ``or.inr``.
+The or-introduction rules are given by ``or.inl`` and ``or.inr``.
 
 .. code-block:: lean
 
