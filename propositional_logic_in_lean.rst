@@ -31,9 +31,9 @@ The logical connectives are rendered in unicode. The following chart shows you h
 +-----------+-------------------+---------------------------------+
 | ¬         | not               | ``\not``, ``\neg``              |
 +-----------+-------------------+---------------------------------+
-| ∧         | /\                | ``\and``                        |
+| ∧         | ``/\``            | ``\and``                        |
 +-----------+-------------------+---------------------------------+
-| ∨         | \/                | ``\or``                         |
+| ∨         | ``\/``            | ``\or``                         |
 +-----------+-------------------+---------------------------------+
 | →         | ->                | ``\to``, ``\r``, ``\imp``       |
 +-----------+-------------------+---------------------------------+
@@ -59,7 +59,7 @@ In addition to declaring variables, if ``P`` is any expression of type ``Prop``,
 
     #check h
 
-Formally, what is going on is that any proposition can be viewed as a type, namely, the type of proofs of that proposition. A hypothesis, or premise, is just a variable of that type. Building proofs is then a matter of writing down expressions of the write type. For example, if ``P`` is any expression of type ``A ∧ B``, then ``and.left P`` is an expression of type ``A``, and ``and.right P`` is an expression of type ``B``. In other words, if ``P`` is a proof of ``A ∧ B``, and ``and.left P`` is a name for the proof you get by applying the left elimination rule for and:
+Formally, what is going on is that any proposition can be viewed as a type, namely, the type of proofs of that proposition. A hypothesis, or premise, is just a variable of that type. Building proofs is then a matter of writing down expressions of the correct type. For example, if ``P`` is any expression of type ``A ∧ B``, then ``and.left P`` is an expression of type ``A``, and ``and.right P`` is an expression of type ``B``. In other words, if ``P`` is a proof of ``A ∧ B``, and ``and.left P`` is a name for the proof you get by applying the left elimination rule for and:
 
 .. raw:: html
 
